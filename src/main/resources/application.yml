@@ -1,0 +1,18 @@
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: default
+
+message: "Hello, from local !"
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: production
+
+message: "Hello, from App Engine!"
